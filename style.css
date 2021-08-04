@@ -1,0 +1,66 @@
+h1 {
+  color: rgb(60, 60, 179);
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-image: url("https://media.giphy.com/media/Ge86XF8AVY1KE/giphy.gif");
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+i {
+  color: rgb(60, 60, 179);
+}
+
+ul > li {
+  display: inline-block;
+  font-size: 2em;
+  padding: 16px;
+}
+
+.center {
+  margin: auto;
+  min-width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width : 10em;
+  border-radius: 50%;
+}
+
+.background-white {
+background-color: white;
+border-radius: 8px;
+width: 50%;
+border: 50%;
+margin: 0 auto;
+}
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+a:hover, i:hover {
+  color: red;
+}
+
+.foot {
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+.background-white {
+  width: 80%;
+}
+}
